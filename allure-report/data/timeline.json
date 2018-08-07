@@ -1,0 +1,97 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "asus-UX32LN",
+    "children" : [ {
+      "name" : "21761-MainThread",
+      "children" : [ {
+        "name" : "test_login_invalid[credentials0]",
+        "uid" : "1788358cced591f",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533658341522,
+          "stop" : 1533658346503,
+          "duration" : 4981
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'invalid_username', 'password': 'invalid_password'}" ]
+      }, {
+        "name" : "test_addition[values1-credentials0]",
+        "uid" : "bc4bd9695e18e6e3",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658220222,
+          "stop" : 1533658260832,
+          "duration" : 40610
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(1, 1000000, 0)" ]
+      }, {
+        "name" : "test_addition[values0-credentials0]",
+        "uid" : "8fb892d5fdaac194",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658175682,
+          "stop" : 1533658216301,
+          "duration" : 40619
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(0, 1, 1000001)" ]
+      }, {
+        "name" : "test_login_invalid[credentials1]",
+        "uid" : "5600f8032241a271",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658350676,
+          "stop" : 1533658355818,
+          "duration" : 5142
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': '', 'password': ''}" ]
+      }, {
+        "name" : "test_addition[values2-credentials0]",
+        "uid" : "f165c84d05e4bdab",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658264845,
+          "stop" : 1533658337837,
+          "duration" : 72992
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(1000000, 0, 1)" ]
+      }, {
+        "name" : "test_login_valid[credentials0]",
+        "uid" : "7cfa9e5e11d0a1a1",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658168331,
+          "stop" : 1533658171102,
+          "duration" : 2771
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}" ]
+      }, {
+        "name" : "test_main_page[button0]",
+        "uid" : "9f9c1b722b9ec85c",
+        "parentUid" : "c55174dfaf83b9ebd288d2d1d7a65511",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658162398,
+          "stop" : 1533658164322,
+          "duration" : 1924
+        },
+        "flaky" : false,
+        "parameters" : [ "{'url': '/qa/addition', 'label': 'Операция сложения'}" ]
+      } ],
+      "uid" : "c55174dfaf83b9ebd288d2d1d7a65511"
+    } ],
+    "uid" : "16c9e25003af2404f5bcefa0950b7093"
+  } ],
+  "name" : "timeline"
+}

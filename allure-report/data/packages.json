@@ -1,0 +1,101 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_base",
+      "children" : [ {
+        "name" : "test_main_page[button0]",
+        "uid" : "9f9c1b722b9ec85c",
+        "parentUid" : "9c862fc74b9e742d9374d4c19df26478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658162398,
+          "stop" : 1533658164322,
+          "duration" : 1924
+        },
+        "flaky" : false,
+        "parameters" : [ "{'url': '/qa/addition', 'label': 'Операция сложения'}" ]
+      }, {
+        "name" : "test_login_valid[credentials0]",
+        "uid" : "7cfa9e5e11d0a1a1",
+        "parentUid" : "9c862fc74b9e742d9374d4c19df26478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658168331,
+          "stop" : 1533658171102,
+          "duration" : 2771
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}" ]
+      }, {
+        "name" : "test_addition[values0-credentials0]",
+        "uid" : "8fb892d5fdaac194",
+        "parentUid" : "9c862fc74b9e742d9374d4c19df26478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658175682,
+          "stop" : 1533658216301,
+          "duration" : 40619
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(0, 1, 1000001)" ]
+      }, {
+        "name" : "test_addition[values1-credentials0]",
+        "uid" : "bc4bd9695e18e6e3",
+        "parentUid" : "9c862fc74b9e742d9374d4c19df26478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658220222,
+          "stop" : 1533658260832,
+          "duration" : 40610
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(1, 1000000, 0)" ]
+      }, {
+        "name" : "test_addition[values2-credentials0]",
+        "uid" : "f165c84d05e4bdab",
+        "parentUid" : "9c862fc74b9e742d9374d4c19df26478",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658264845,
+          "stop" : 1533658337837,
+          "duration" : 72992
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'WQA', 'password': 12345}", "(1000000, 0, 1)" ]
+      } ],
+      "uid" : "9c862fc74b9e742d9374d4c19df26478"
+    }, {
+      "name" : "test_security",
+      "children" : [ {
+        "name" : "test_login_invalid[credentials0]",
+        "uid" : "1788358cced591f",
+        "parentUid" : "0ee01ddb8472510ca85266f22139a4f4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533658341522,
+          "stop" : 1533658346503,
+          "duration" : 4981
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 'invalid_username', 'password': 'invalid_password'}" ]
+      }, {
+        "name" : "test_login_invalid[credentials1]",
+        "uid" : "5600f8032241a271",
+        "parentUid" : "0ee01ddb8472510ca85266f22139a4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1533658350676,
+          "stop" : 1533658355818,
+          "duration" : 5142
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': '', 'password': ''}" ]
+      } ],
+      "uid" : "0ee01ddb8472510ca85266f22139a4f4"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}

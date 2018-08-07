@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"failed","tests.test_security#test_login_invalid[credentials0]","4981"," Invalid login. "
+"passed","tests.test_base#test_addition[values1-credentials0]","40610"," Addition works with valid values (positive integers). "
+"passed","tests.test_base#test_addition[values0-credentials0]","40619"," Addition works with valid values (positive integers). "
+"passed","tests.test_security#test_login_invalid[credentials1]","5142"," Invalid login. "
+"passed","tests.test_base#test_addition[values2-credentials0]","72992"," Addition works with valid values (positive integers). "
+"passed","tests.test_base#test_login_valid[credentials0]","2771"," Valid login. "
+"passed","tests.test_base#test_main_page[button0]","1924"," Main page. "

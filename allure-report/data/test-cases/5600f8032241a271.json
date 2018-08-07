@@ -1,0 +1,131 @@
+{
+  "uid" : "5600f8032241a271",
+  "name" : "test_login_invalid[credentials1]",
+  "fullName" : "tests.test_security#test_login_invalid[credentials1]",
+  "historyId" : "9cbcceed4265980b93cd6b8e6581f27f",
+  "time" : {
+    "start" : 1533658350676,
+    "stop" : 1533658355818,
+    "duration" : 5142
+  },
+  "description" : " Invalid login. ",
+  "descriptionHtml" : "<p>Invalid login.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1533658158960,
+      "stop" : 1533658158960,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1533658347156,
+      "stop" : 1533658350674,
+      "duration" : 3518
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1533658158959,
+      "stop" : 1533658158959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : " Invalid login. ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0d26010c9be4859",
+      "name" : "Screenshot",
+      "source" : "a0d26010c9be4859.png",
+      "type" : "image/png",
+      "size" : 16772
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::close",
+    "time" : {
+      "start" : 1533658355819,
+      "stop" : 1533658356442,
+      "duration" : 623
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "host",
+    "value" : "asus-UX32LN"
+  }, {
+    "name" : "thread",
+    "value" : "21761-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_security"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "credentials",
+    "value" : "{'username': '', 'password': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5600f8032241a271.json",
+  "parameterValues" : [ "{'username': '', 'password': ''}" ]
+}
