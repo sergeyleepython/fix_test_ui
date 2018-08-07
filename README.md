@@ -15,5 +15,7 @@ Python dependencies:
 > $ export PATH="$PATH:/path/to/driver/"
 * In a terminal go to the project folder and install Python requirements:
 > $ pip3 install -r requirements.txt
-* Run tests specifying browser:
-> $ pytest --browser firefox
+* Run tests specifying browser and storing output data for reports:
+> $ pytest --browser firefox --alluredir reports
+* Run Allure server for the results visualization:
+> $ allure serve reports
